@@ -27,7 +27,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string apiKey = "90f3c903d03c09a887221c3c9993a558";
+        string apiKey = "";
         string URL = $"https://api.openweathermap.org/data/2.5/weather";
 
         Weather[] weathers = new Weather[50];
